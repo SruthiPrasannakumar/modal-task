@@ -1,0 +1,172 @@
+.main-heading{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-headings{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin-top: 40px; 
+    text-align: center;
+}
+.harry{
+    
+    text-align: center;
+}
+.buy{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.modal-div{
+    text-align: center;
+}
+button{
+    /* transition: transform 2s ease-in-out; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   
+}
+
+button:hover{
+    transform: translateY(5px);
+}
+
+.foot{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    /* background-color: #D3D3D3; */
+    background-image:linear-gradient(to bottom right, rgb(35, 178, 116),rgb(55, 62, 184),rgb(120, 66, 185),violet);
+
+}
+.child1{
+    width: 200px;
+    height: 250px;
+    margin-top: 0px;
+}
+.store-name{
+    font-size: 20px;
+    font-weight: 700;
+   
+    font-family: "Alegreya", serif;
+}
+.style{
+    font-weight: 600;
+}
+.auts{
+    color: black;
+}
+
+.s-para{
+color: rgb(249, 246, 246);
+font-size: 16px;
+}
+.e-para{
+    color: rgb(239, 136, 19);
+font-size: 19px;
+font-family: "Dancing Script", cursive;
+font-weight: 600;
+}
+
+.author{
+    color: rgb(52, 225, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 250px;
+
+}
+.child21{
+    margin-top: 0px;
+}
+.child3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 250px;
+
+}
+.child31{
+    margin-top: 0px;
+}
+
+.child5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    width: 200px;
+    height: 250px;
+
+}
+.child51{
+    margin-top: 0px;
+}
+.childr{
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+    font-size: 18px;
+}
+
+.icon-collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+.icon:hover{
+    background-image:linear-gradient(to bottom right, white,rgb(55, 62, 184),rgb(120, 66, 185),violet);
+}
+.brands{
+    color: black;
+    font-size: 30px;
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    /* 40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    } */
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
