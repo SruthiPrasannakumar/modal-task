@@ -34,7 +34,7 @@ button:hover{
 }
 
 .foot{
-    height: 400px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +43,7 @@ button:hover{
     justify-content:space-evenly;
     /* background-color: #D3D3D3; */
     background-image:linear-gradient(to bottom right, rgb(35, 178, 116),rgb(55, 62, 184),rgb(120, 66, 185),violet);
+    padding: 20px;
 
 }
 .child1{
@@ -83,6 +84,7 @@ font-weight: 600;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* justify-content: space-evenly; */
     width: 200px;
     height: 250px;
 
@@ -93,6 +95,7 @@ font-weight: 600;
 .child3{
     display: flex;
     flex-direction: column;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
     width: 200px;
     height: 250px;
@@ -104,6 +107,7 @@ font-weight: 600;
 
 .child5{
     display: flex;
+    /* justify-content: space-evenly; */
     flex-direction: column;
     flex-wrap: wrap;
    
